@@ -9,6 +9,7 @@ const NavBar: React.FC = () => {
           src="/images/redditText.svg"
           alt="Reddit Word-Mark"
           height="46"
+          display={{ base: 'none', md: 'unset' }}
         />
       </Flex>
     </Flex>
