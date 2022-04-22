@@ -1,5 +1,7 @@
 // 1. Import `extendTheme`
 import { extendTheme } from '@chakra-ui/react';
+import { Button } from './buttons';
+
 import '@fontsource/open-sans';
 import '@fontsource/open-sans/400.css';
 import '@fontsource/open-sans/700.css';
@@ -22,6 +24,6 @@ export const theme = extendTheme({
     }),
   },
   components: {
-    Buttons: {},
+    Button,
   },
 });
