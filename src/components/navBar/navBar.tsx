@@ -1,4 +1,6 @@
 import { Flex, Image } from '@chakra-ui/react';
+import RightContent from './right-content/right-content';
+import SerachInput from './serachInput';
 
 const NavBar: React.FC = () => {
   return (
@@ -12,6 +14,10 @@ const NavBar: React.FC = () => {
           display={{ base: 'none', md: 'unset' }}
         />
       </Flex>
+
+      {/* <Directory/> */}
+      <SerachInput />
+      <RightContent />
     </Flex>
   );
 };
